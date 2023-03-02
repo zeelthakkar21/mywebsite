@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
     <link rel="stylesheet" href="style.css">
-    
+
+
     <title>Shopping Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   </head>
+    <body>
+        
     <section id="header">
         <a href="#"><img src="/img/logo.png" class="logo" alt=""</a>
 
@@ -23,3 +28,79 @@
             </ul>
         </div>
     </section>
+
+    <div class="main-parent">
+        <div class="form-wrap">
+            <form action="">
+                <h1><span>Registration</span> Form</h1>
+                <div class="single-input">
+                    <input required type="text" id="fname" placeholder="First name">
+                </div>
+
+                <div class="single-input">
+                    <input required type="text" id="lname" placeholder="Last name">
+                </div>
+
+                <div class="single-input">
+                    <input required type="email" id="email" placeholder="Email address">
+                </div>
+
+                <div class="single-input">
+                    <input required type="password" id="pass" placeholder="Password">
+                </div>
+
+                <div class="single-input">
+                    <input required type="password" id="cpass" placeholder="Confirm Password">
+                </div>
+
+                <div class="submit-button">
+                    <button class="button">Submit</button>
+                </div>
+
+                <div class="account-have">
+                    <a href="#">Forgot Password</a>
+                    <a href="#">Have an account please login</a>
+
+                </div>
+            </form>
+        </div>
+
+    
+    <div class="form-wrap">
+        <form action="">
+            <h1><span>Login</span> Form</h1>
+            
+            <div class="single-input">
+                <input required type="email" id="email" placeholder="Email address">
+            </div>
+
+            <div class="single-input">
+                <input required type="password" id="pass" placeholder="Password">
+            </div>
+
+            <div class="single-input">
+                <input required type="password" id="cpass" placeholder="Confirm Password">
+            </div>
+
+            <div class="submit-button">
+                <button class="button">Submit</button>
+            </div>
+
+            <div class="account-have">
+                <a href="#">Forgot Password</a>
+                <a href="#">New User</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+</div>
+
+   
+    
+    <script src="/sweetalert.js"></script>
+    <script src="/script.js"></script>
+   
+</body>
+</html>
