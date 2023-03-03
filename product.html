@@ -4,9 +4,286 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
-<body>
+ <body>
+    <section id="header">
+        <a href="#"><img src="/img/logo.png" class="logo" alt=""/></a>
+
+        <div>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="login.html">Login</a></li>
+                <li> <a class="active" href="Product.html">Products</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2> Valueable deal </h2>
+        <p>Coupons are aplicable & up to 40% off!!</p>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+
+        <div id="products"></div>
+          </div>
+                <ul class="filterSection">
+            <li>
+                <strong>Size:</strong>
+                <input checked="true" type="checkbox" value="S"/>
+                <label>S</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="M"/>
+                <label>M</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="L"/>
+                <label>L</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="XL"/>
+                <label>XL</label>
+            </li>
+        </ul>
+
+        <ul class="filterSection1">
+            <li>
+                <strong>Price:</strong>
+                <input checked="true" type="checkbox" value="99-299"/>
+                <label>199-299</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="299-499"/>
+                <label>299-499</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="499-699"/>
+                <label>499-699</label>
+            </li>
+            <li>
+                <input checked="true" type="checkbox" value="699-1199"/>
+                <label>1199</label>
+            </li>
+        </ul>
+
+        
+        
+        <div class="pro-container">
+            <div class="pro">   
+                <img src="/img/f1.png" alt="">
+                <div class="des">   
+                    <span>addidas</span>
+                    <h5>Cartoon T-shirts</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.799/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f2.png" alt="">
+                <div class="des">   
+                    <span>Style</span>
+                    <h5>Flower Prints</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.899/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f3.png" alt="">
+                <div class="des">   
+                    <span>Sheetal</span>
+                    <h5>Floral shirt</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.399/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f4.png" alt="">
+                <div class="des">   
+                    <span>addidas</span>
+                    <h5>Cartoon T-shirts</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.799/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f5.png" alt="">
+                <div class="des">   
+                    <span>addidas</span>
+                    <h5>Floral T-shirts</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.499/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f6.png" alt="">
+                <div class="des">   
+                    <span>Tokyo</span>
+                    <h5>T-shirts & Shirt</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.1299/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f7.png" alt="">
+                <div class="des">   
+                    <span>SSS</span>
+                    <h5>Pyjamas</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.599/-</h4>
+                </div>
+                <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+
+            <div class="pro">   
+                <img src="/img/f8.png" alt="">
+                <div class="des">   
+                    <span>style</span>
+                    <h5>Floral top</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs.999/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i> </a>
+            </div>
+       
+
+
+    <section id="banner" class="section-m1">
+        <h4>All Services</h4>
+        <h2>Up to <span>40% off</span> on all products</h2>
+        <button onclick="location.href='./login.html'" class="normal">Explore More</button>
+    </section> 
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img  class="logo" src="/img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>F-111 Omcar Site,Opp.Gorva I.T.I- 380001</p>
+            <p><strong>Phone: </strong>7896851427</p>
+            <p><strong>Hours: </strong>10:30 am to 6:30 pm, Mon-FRi</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About US</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Condition</a>
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <i class="fa-brands fa-google-play"></i>
+            </div>
+            <p>Secure Payment Gateway</p>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-google-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>    
+        </div>
+
     
+    </footer>
+
+    <script src="/product.js"></script>
 </body>
 </html>

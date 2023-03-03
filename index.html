@@ -11,7 +11,7 @@
 </head>
  <body>
     <section id="header">
-        <a href="#"><img src="/img/logo.png" class="logo" alt=""</a>
+        <a href="#"><img src="/img/logo.png" class="logo" alt=""/></a>
 
         <div>
             <ul id="navbar">
@@ -20,10 +20,17 @@
                 <li> <a href="Product.html">Products</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li> <a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
 
             </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+
         </div>
     </section>
 
@@ -222,6 +229,59 @@
         <button onclick="location.href='./login.html'" class="normal">Explore More</button>
     </section> 
 
-    <script src="script.js"></script>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img  class="logo" src="/img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>F-111 Omcar Site,Opp.Gorva I.T.I- 380001</p>
+            <p><strong>Phone: </strong>7896851427</p>
+            <p><strong>Hours: </strong>10:30 am to 6:30 pm, Mon-FRi</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About US</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Condition</a>
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <i class="fa-brands fa-google-play"></i>
+            </div>
+            <p>Secure Payment Gateway</p>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-google-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>    
+        </div>
+
+    
+    </footer>
+
+    <script src="/scri.js"></script>
 </body>
 </html>
