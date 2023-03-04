@@ -337,6 +337,7 @@ footer .col{
     flex-direction: column;
    align-items: flex-start;
    margin-bottom: 20px;
+   padding:20px;
 }
 
 footer .logo{
@@ -386,6 +387,7 @@ footer .follow i:hover,
 footer a:hover {
 color: rgb(18, 121, 121);
 }
+
 
 /* media query for tablet ipad*/
  @media (max-width:799px){
@@ -465,8 +467,18 @@ color: rgb(18, 121, 121);
     height: 30vh;
     
 }
+/*contact form*/
+#form-details {
+    
+    padding: 40px;
+}
+
+#form-details form{
+    width: 50%;
+}
  }
 
+ 
 
 
  /*media query for mobile*/
@@ -507,6 +519,44 @@ color: rgb(18, 121, 121);
     #banner {
         height:25vh;
     }
+
+    /*about page*/
+
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+
+    /*conact page*/
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+        border: 1px solid grey;
+    }
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
 }
 
 
@@ -524,3 +574,202 @@ color: rgb(18, 121, 121);
     padding: 14px;
 
 }
+
+
+#product1 {
+    margin-top:20px;
+
+}
+
+#product1 .single-pro-details{
+    width: 100%;
+    padding-top:10px;
+
+}
+
+#product1 .single-pro-details select{
+    display: initial;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+ 
+
+/*about page*/
+
+#product2{
+    background-image: url("img/about.png");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+ }
+
+ #about-head{
+    display: flex;
+    align-items: center;
+
+ }
+
+ #about-head img{
+    width: 100%;
+    height: auto;
+
+ }
+
+ #about-head div{
+    padding-left: 40px; 
+}
+
+/*contact us*/
+
+#contact{
+    background-image: url("img/contact.png");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 30px;
+    color:
+}
+
+#contact h2{
+    color:aliceblue;
+}
+
+#contact p{
+    color: beige;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span{
+    font-size: 12px;
+}
+
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right:20px;
+}
+
+#contact-details .details li p{
+    margin:0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    height: 400px;
+    width: 55%;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid grey;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form span{
+    font-size: 12px;
+}
+
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding:12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgba(243, 130, 130, 0.918);
+}
+#form-details form button{
+    background-color: rgb(73, 155, 175);
+    color: #465b52;
+}
+ 
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start; 
+}
+#form-details .people div img{
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    margin-right: 15px;
+
+}
+
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+
+
+
+
+
+
+
+
+
+
+
+
